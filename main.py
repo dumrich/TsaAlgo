@@ -45,8 +45,6 @@ def GridBoard(OrientationString):
     return f'{GridBoard[0]},\n{GridBoard[1]}'
 
 if __name__=='__main__':
-    # returns 'T'
     print(GridBoard('HV'))
-    # returns 'B'
     print(GridBoard('VVHH'))
 
